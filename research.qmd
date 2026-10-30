@@ -3,238 +3,150 @@ title: "Progetti di ricerca"
 lang: it
 ---
 
-<p class="smallprint">
+::: {.smallprint}
+[🇬🇧 Read in English](en/research.html)
+:::
 
-<a href="en/research.html">🇬🇧 Read in English</a>
-
-</p>
-
-:::: page-header
-::: eyebrow
+:::: {.page-header}
+::: {.eyebrow}
 Research portfolio
 :::
 
-<h1>Progetti di ricerca</h1>
+# Progetti di ricerca
 
-<p class="lead">
-
+::: {.lead}
 Studio i processi cognitivi e neurali coinvolti nella lettura e nel linguaggio, con particolare attenzione al ritmo e alla predizione temporale. Negli anni ho condotto ricerche su bambini della scuola primaria e dell'asilo, adolescenti e giovani adulti. Mi sono principalmente formata in Psicometria e Psicologia Generale, ma ho fatto esperienze anche nell'ambito del neuroimaging.
-
-</p>
+:::
 ::::
 
-:::: feature
+:::: {.feature}
 ![Presentazione ReadFree](images/READFREE.jpeg){.readfree-photo}
 
-<div>
-
-<h2>LE MIE LINEE DI RICERCA</h2>
-
-<p>
+::: {}
+## LE MIE LINEE DI RICERCA
 
 Studio dell'acquisizione e dello sviluppo delle abilità ritmiche, linguistiche e cognitive.
 
 Progettazione e validazione di strumenti carta-matita e digitali per lo studio di abilità cognitive legate all’apprendimento e al rischio di dislessia, anche in bambini bilingui.
 
 Attività in collaborazione con Università degli Studi di Urbino Carlo Bo, Università degli Studi di Milano-Bicocca, Politecnico di Milano, I.R.C.C.S. Carlo Besta, TiCuro REPLY, FifthIngenium
-
-</p>
-
-</div>
+:::
 ::::
 
-<a class="cta" href="publications.qmd">Leggi le pubblicazioni</a>
+[Leggi le pubblicazioni](publications.qmd){.cta}
 
 <!-- PROGETTI E COLLABORAZIONI -->
 
-<section class="research-projects">
+::::: {.research-projects}
 
-::: research-heading
+::: {.research-heading}
 [IL MIO LAVORO SCIENTIFICO]{.eyebrow}
 
-<h2>Progetti e collaborazioni di ricerca</h2>
+## Progetti e collaborazioni di ricerca
 
-<p>Dallo studio dei processi cognitivi allo sviluppo di strumenti di valutazione: alcune delle principali linee di ricerca a cui ho contribuito.</p>
+Dallo studio dei processi cognitivi allo sviluppo di strumenti di valutazione: alcune delle principali linee di ricerca a cui ho contribuito.
 :::
 
-<article class="research-project">
-
-:::: research-visual
-::: research-visual
-```{=html}
-<img src="images/welcome.png"
-       alt="ReadFree - Progetto di ricerca sulla dislessia evolutiva"
-       class="research-image">
-```
+:::: {.research-project}
+::: {.research-visual}
+![ReadFree - Progetto di ricerca sulla dislessia evolutiva](images/welcome.png){.research-image}
 :::
-::::
-
-:::::::::::::::::: research-description
+::: {.research-description}
 [PSICOMETRIA · NEUROSVILUPPO]{.eyebrow}
 
-<h3>ReadFree</h3>
+### ReadFree
 
-<p>Sviluppo e validazione di strumenti per identificare precocemente le difficoltà di lettura attraverso abilità cognitive non strettamente linguistiche.</p>
+Sviluppo e validazione di strumenti per identificare precocemente le difficoltà di lettura attraverso abilità cognitive non strettamente linguistiche.
 
-<p class="research-methods">
-
+::: {.research-methods}
 Psicometria · Screening · Machine learning
-
-</p>
-
-</div>
-
-</article>
-
-<article class="research-project reverse">
-
-:::: research-visual
-::: research-visual
-```{=html}
-<img src="images/RM.jpg"
-       alt="FREE-DD"
-       class="research-image">
-```
+:::
 :::
 ::::
 
-::::::::::::::: research-description
+:::: {.research-project .reverse}
+::: {.research-visual}
+![FREE-DD](images/RM.jpg){.research-image}
+:::
+::: {.research-description}
 [NEUROSCIENZE COGNITIVE]{.eyebrow}
 
-<h3>FREE-DD</h3>
+### FREE-DD
 
-<p>Studio longitudinale dei marcatori cognitivi e neurali della dislessia evolutiva, con particolare attenzione al rischio familiare.</p>
+Studio longitudinale dei marcatori cognitivi e neurali della dislessia evolutiva, con particolare attenzione al rischio familiare.
 
-<p class="research-methods">
-
+::: {.research-methods}
 Valutazione cognitiva · MRI · Analisi longitudinali
-
-</p>
-
-</div>
-
-</article>
-
-<article class="research-project">
-
-:::: research-visual
-::: research-visual
-```{=html}
-<img src="images/Tappy_yellow.png"
-       alt="TAPPING"
-       class="research-image">
-```
+:::
 :::
 ::::
 
-:::::::::::: research-description
+:::: {.research-project}
+::: {.research-visual}
+![TAPPING](images/Tappy_yellow.png){.research-image}
+:::
+::: {.research-description}
 [PSICOLOGIA GENERALE]{.eyebrow}
 
-<h3>Ritmo, musica e linguaggio</h3>
+### Ritmo, musica e linguaggio
 
-<p>Studi sperimentali e meta-analitici sulle relazioni tra elaborazione temporale, anticipazione motoria, competenze linguistiche e lettura.</p>
+Studi sperimentali e meta-analitici sulle relazioni tra elaborazione temporale, anticipazione motoria, competenze linguistiche e lettura.
 
-<p class="research-methods">
-
+::: {.research-methods}
 Tapping · Sincronizzazione · Meta-analisi
-
-</p>
-
-</div>
-
-</article>
-
-<article class="research-project reverse">
-
-:::: research-visual
-::: research-visual
-```{=html}
-<img src="images/I.G.R.O.O.V.E..png"
-       alt="IGROOVE"
-       class="research-image">
-```
+:::
 :::
 ::::
 
-::::::::: research-description
+:::: {.research-project .reverse}
+::: {.research-visual}
+![IGROOVE](images/I.G.R.O.O.V.E..png){.research-image}
+:::
+::: {.research-description}
 [PSICOLOGIA DELLO SVILUPPO]{.eyebrow}
 
-<h3>IG.R.O.O.V.E.</h3>
+### IG.R.O.O.V.E.
 
-<p>Collaborazione scientifica dedicata allo studio dell'elaborazione ritmica e dello sviluppo nei bambini nati pretermine.</p>
+Collaborazione scientifica dedicata allo studio dell'elaborazione ritmica e dello sviluppo nei bambini nati pretermine.
 
-<p class="research-methods">
-
+::: {.research-methods}
 Sviluppo cognitivo · Elaborazione ritmica
-
-</p>
-
-</div>
-
-</article>
-
-<article class="research-project">
-
-:::: research-visual
-::: research-visual
-```{=html}
-<img src="images/-leibnizdream-logo3-2.png"
-       alt="LEIBNIZ"
-       class="research-image">
-```
+:::
 :::
 ::::
 
-:::::: research-description
+:::: {.research-project}
+::: {.research-visual}
+![LEIBNIZ](images/-leibnizdream-logo3-2.png){.research-image}
+:::
+::: {.research-description}
 [PSICOLOGIA e LINGUISTICA SPERIMENTALE]{.eyebrow}
 
-<h3>LeibnizDream</h3>
+### LeibnizDream
 
-<p>Attività di ricerca nell'ambito di un progetto ERC Synergy dedicato ai meccanismi cognitivi dell'acquisizione del linguaggio.</p>
+Attività di ricerca nell'ambito di un progetto ERC Synergy dedicato ai meccanismi cognitivi dell'acquisizione del linguaggio.
 
-<p class="research-methods">
-
+::: {.research-methods}
 Disegni sperimentali · Analisi comportamentali
-
-</p>
-
-</div>
-
-</article>
-
-<article class="research-project reverse">
-
-:::: research-visual
-::: research-visual
-```{=html}
-<img src="images/PLQ.png"
-       alt="PLQ"
-       class="research-image">
-```
+:::
 :::
 ::::
 
-::: research-description
+:::: {.research-project .reverse}
+::: {.research-visual}
+![PLQ](images/PLQ.png){.research-image}
+:::
+::: {.research-description}
 [LINGUAGGIO · APPRENDIMENTO]{.eyebrow}
 
-<h3>Bilinguismo e lettura</h3>
+### Bilinguismo e lettura
 
-<p>Studio delle relazioni tra esperienza linguistica, sviluppo delle abilità di lettura e identificazione precoce delle difficoltà di apprendimento.</p>
+Studio delle relazioni tra esperienza linguistica, sviluppo delle abilità di lettura e identificazione precoce delle difficoltà di apprendimento.
 
-<p class="research-methods">
-
+::: {.research-methods}
 Psicometria · Valutazione cognitiva
-
-</p>
-
-</div>
-
-</article>
-
-</section>
 :::
-::::::
-:::::::::
-::::::::::::
-:::::::::::::::
-::::::::::::::::::
+:::
+::::
+
+:::::
