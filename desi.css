@@ -1,0 +1,218 @@
+
+/* ==========================================
+   IL MONDO DELLA DOTTORESSA DESI
+   Stili esclusivi per questa pagina
+   ========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* SFONDO ILLUSTRATO A PASTELLO */
+
+body:has(.desi-services) {
+  background-color: #fffdfa;
+  background-image: url("images/desi-crayon-background.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  background-attachment: scroll;
+}
+
+/* LARGHEZZA DEL CONTENUTO */
+
+body:has(.desi-services) #quarto-content main {
+  max-width: 1190px;
+  margin-inline: auto;
+}
+
+/* PRESENTAZIONE INIZIALE */
+
+body:has(.desi-services) .hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr);
+  gap: clamp(35px, 5vw, 80px);
+  padding: 55px 0 60px;
+  align-items: center;
+}
+
+body:has(.desi-services) .hero h1 {
+  font-size: clamp(2.8rem, 5vw, 5rem);
+}
+
+/* CORNICE DELLA FOTOGRAFIA */
+
+body:has(.desi-services) .hero img {
+  border: 5px solid #D4AFE2;
+  padding: 6px;
+  border-radius: 23px;
+  background: #fff;
+  box-shadow: 6px 7px 0 #F4D4E7;
+}
+
+/* SCRITTA DESI MULTICOLORE */
+
+body:has(.desi-services) .desi-rainbow {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.17em;
+  background: linear-gradient(
+    90deg,
+    #F17B9C,
+    #F1B44C,
+    #69BCA8,
+    #8B6CB6
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* SEZIONE COSA POSSO FARE PER TE */
+
+body:has(.desi-services) .desi-services {
+  margin: 60px 0 75px;
+}
+
+body:has(.desi-services) .desi-services > h2 {
+  text-align: center;
+  color: #926B9B;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-size: clamp(2.7rem, 5vw, 4.2rem);
+  text-decoration: underline wavy #F5C75A 3px;
+  text-underline-offset: 12px;
+  margin-bottom: 55px;
+}
+
+/* TRE CARD AFFIANCATE */
+
+body:has(.desi-services) .desi-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+/* STILE DELLE CARD */
+
+body:has(.desi-services) .desi-card {
+  min-width: 0;
+  padding: 20px 23px 29px;
+  border: 2px solid rgba(126, 90, 125, .13);
+  border-radius: 30px 20px 35px 24px;
+  box-shadow: 7px 9px 0 rgba(75, 58, 82, .09);
+  transition: transform .25s ease;
+}
+
+/* COLORI E INCLINAZIONI */
+
+body:has(.desi-services) .desi-card:nth-child(1) {
+  background: #FBE5ED;
+  transform: rotate(-2deg);
+}
+
+body:has(.desi-services) .desi-card:nth-child(2) {
+  background: #E4F2F9;
+  transform: rotate(1.5deg);
+}
+
+body:has(.desi-services) .desi-card:nth-child(3) {
+  background: #FFF0CE;
+  transform: rotate(-1deg);
+}
+
+body:has(.desi-services) .desi-card:hover {
+  transform: rotate(0deg) translateY(-6px);
+}
+
+/* ILLUSTRAZIONI DELLE CARD */
+
+body:has(.desi-services) .desi-card-art {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 18px;
+  mix-blend-mode: multiply;
+  margin: 0 0 14px;
+}
+
+/* TESTI DELLE CARD */
+
+body:has(.desi-services) .desi-card h3 {
+  font-size: clamp(1.2rem, 1.7vw, 1.6rem);
+  margin: 12px 0;
+}
+
+body:has(.desi-services) .desi-card p {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+/* NOTA PER I GENITORI */
+
+body:has(.desi-services) .notice {
+  margin: 40px 0 50px;
+}
+
+/* VERSIONE SMARTPHONE */
+
+@media (max-width: 800px) {
+
+  body:has(.desi-services) {
+    background-size: 180% auto;
+    background-position: center top;
+  }
+
+  body:has(.desi-services) .hero {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  body:has(.desi-services) .hero img {
+    width: min(100%, 380px);
+  }
+
+  body:has(.desi-services) .desi-cards {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  body:has(.desi-services) .desi-card-art {
+    height: 220px;
+    object-fit: contain;
+  }
+}
+
+/* ACCESSIBILITÀ: RIDUZIONE ANIMAZIONI */
+
+@media (prefers-reduced-motion: reduce) {
+  body:has(.desi-services) .desi-card {
+    transition: none;
+  }
+}
+
+/* Rende visibile lo sfondo anche dietro il contenitore Quarto */
+body:has(.desi-services) #quarto-content,
+body:has(.desi-services) #quarto-content main,
+body:has(.desi-services) .page-columns { background-color: transparent; }
+
+/* Zona di lettura più pulita */
+
+body:has(.desi-services) .hero > div:first-child {
+  background: rgba(255, 253, 250, 0.88);
+  border-radius: 28px;
+  padding: 25px 30px;
+  box-shadow: 0 0 35px 25px rgba(255, 253, 250, 0.65);
+}
+
+/* Compatta l'area iniziale e rende i testi più leggibili */
+body:has(.desi-services) .hero { padding-top: 30px; padding-bottom: 12px; }
+body:has(.desi-services) .hero p { font-size: 1.18rem; line-height: 1.7; }
+body:has(.desi-services) .desi-services { margin-top: 12px; }
+body:has(.desi-services) .desi-services > h2 { margin-bottom: 27px; }
+body:has(.desi-services) .desi-card p { font-size: 1.14rem; line-height: 1.65; }
+body:has(.desi-services) .desi-card h3 { font-size: clamp(1.4rem, 2vw, 1.8rem); }
+body:has(.desi-services) .desi-contact-cta { text-align: center; margin-top: 42px; }
+@media (max-width: 800px) {
+ body:has(.desi-services) .hero { padding-top: 20px; padding-bottom: 5px; }
+ body:has(.desi-services) .desi-services { margin-top: 10px; }
+}

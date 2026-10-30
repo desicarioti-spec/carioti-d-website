@@ -1,0 +1,60 @@
+---
+title: "Ricerca, consulenza e analisi dati"
+lang: it
+---
+
+<p class="smallprint">
+
+<a href="en/consulting.html">🇬🇧 Read in English</a>
+
+</p>
+
+:::: page-header
+::: eyebrow
+Per ricercatori, gruppi e organizzazioni
+:::
+
+<h1>Ricerca, consulenza e analisi dati</h1>
+
+<p class="lead">
+
+Dall’idea sperimentale all’interpretazione dei risultati: supporto metodologico per progetti di ricerca solidi e riproducibili.
+
+</p>
+::::
+
+:::::: service-grid
+::: service-card
+<h3>Progettazione e metodologia</h3>
+
+<p>Disegni sperimentali, operazionalizzazione della domanda, definizione delle misure, campionamento, piani di analisi e supporto alla ricerca.</p>
+:::
+
+::: service-card
+<h3>Statistica e modellistica</h3>
+
+<p>Analisi in R, modelli misti, analisi multivariate, meta-analisi e approcci di machine learning.</p>
+:::
+
+::: service-card
+<h3>Psicometria e neuroimaging</h3>
+
+<p>Validazione di strumenti, analisi di dati comportamentali e di neuroimaging, supporto all’interpretazione.</p>
+:::
+::::::
+
+:::: feature
+<img src="images/READFREE.jpeg" alt="Presentazione del progetto ReadFree" class="readfree-photo"/>
+
+<div>
+
+<h2>Esperienza scientifica applicata</h2>
+
+<p>Ho conseguito un dottorato di ricerca specializzandomi in particolar modo sulla psicometria e l'analisi dei dati, ho seguito formazioni specifiche su analisi di machine learning, modelli di mediazione e moderazioni, equazioni strutturali, meta-analisi comportamentali e statistica bayesiana. Ho collaborato all'ideazione e validazione di test per la valutazione del linguaggio, per lo screening e per il trattamento di condizioni neuropsicologiche cliniche.</p>
+
+<a href="research.qmd">Progetti di ricerca →</a>
+
+</div>
+::::
+
+<a class="cta" href="contacts.qmd">Proponi un progetto</a>

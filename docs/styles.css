@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--ink:#513448;--forest:#985E50;--mint:#F8EDE7;--paper:#FAF6EF;--warm:#E9BE68;--plum:#513448;--terracotta:#BE7656;--honey:#E9BE68;--border:#E8DAD5}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.75}
+h1,h2,h3,.navbar-brand{font-family:'Playfair Display',serif;color:var(--ink)}h1{font-size:clamp(2.4rem,5vw,4.5rem);line-height:1.12}h2{margin-top:2rem}
+a{color:var(--forest)}a:hover{color:#784532}
+.navbar{background:#FFFCF8!important;border-bottom:1px solid var(--border)}.navbar-brand{font-size:1.35rem}.navbar-logo{border-radius:50%;max-height:34px}
+#quarto-content{padding-bottom:4rem}.hero{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:3.5rem;padding:3.3rem 0 4rem}.hero p{font-size:1.15rem}.hero img{width:100%;height:490px;object-fit:cover;border-radius:220px 220px 18px 18px;object-position:center 22%}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.75rem;font-weight:700;color:var(--forest)}.lead{font-size:1.22rem;max-width:850px}.cta{display:inline-block;padding:.75rem 1.25rem;border-radius:50px;background:var(--forest);color:white!important;text-decoration:none;font-weight:600;margin:.5rem .5rem .5rem 0}.cta.secondary{background:transparent;color:var(--forest)!important;border:1px solid var(--forest)}
+.service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;margin:1.7rem 0 3rem}.service-card{background:#FFFCF9;border:1px solid var(--border);border-radius:16px;padding:1.7rem;box-shadow:0 5px 20px #51344812}.service-card h3{margin-top:0;font-size:1.45rem}.service-card p{font-size:.98rem}.service-card a{font-weight:700}
+.feature{display:grid;grid-template-columns:1fr 1.1fr;gap:2rem;align-items:center;margin:2.5rem 0}.feature img{width:100%;max-height:420px;object-fit:cover;border-radius:16px}.feature.reverse{grid-template-columns:1.1fr 1fr}.feature.reverse img{order:2}
+.book-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;margin:2rem 0}.book{display:flex;gap:1.5rem;background:#FFFCF9;padding:1.4rem;border-radius:14px}.book img{width:130px;object-fit:contain;align-self:start}.book h3{margin-top:0}
+.notice{background:var(--mint);border-left:4px solid var(--forest);padding:1rem 1.4rem;border-radius:6px}.page-header{padding:2rem 0 1rem}.page-header p{max-width:780px}.portrait{max-width:330px;border-radius:14px}.smallprint{font-size:.9rem;color:#78656D}
+@media(max-width:800px){.hero,.feature,.feature.reverse{grid-template-columns:1fr;gap:1.3rem}.hero img{height:390px;max-width:360px}.feature.reverse img{order:0}.service-grid,.book-grid{grid-template-columns:1fr}.book{flex-wrap:wrap}.navbar-brand{font-size:1.15rem}}
+
+/* Quarto inserts a title block even when a custom HTML hero/header is present. */
+#title-block-header { display: none !important; }
+/* Give navigation a little more space while preserving mobile collapse. */
+.navbar .navbar-nav { gap: .12rem; }
+.navbar .nav-link { font-size: .91rem; white-space: nowrap; }
+/* Hero: natural-width portrait, without the extreme oval crop. */
+.hero { grid-template-columns: minmax(0,1.12fr) minmax(290px,.88fr); gap: 2.5rem; }
+.hero img { width: 100%; height: auto; max-height: 560px; aspect-ratio: 4 / 5; object-fit: contain; object-position: center; border-radius: 18px; }
+@media (max-width: 1000px) { .hero { grid-template-columns: 1fr; } .hero img { width: min(100%,460px); max-height: none; } }
+
+#quarto-content main { padding-top: 1.5rem; }
+
+/* Palette prugna · terracotta · miele — 25 ottobre 2026 */
+.navbar-brand,.navbar-brand:hover{color:var(--plum)!important}
+.navbar .nav-link{color:var(--ink)!important}
+.navbar .nav-link:hover,.navbar .nav-link.active{color:var(--terracotta)!important}
+.navbar .dropdown-menu{background:#FFFCF9;border-color:var(--border)}
+.navbar .dropdown-item:hover{background:var(--mint);color:var(--plum)}
+.cta{background:var(--plum)}
+.cta:hover{background:#6B465F;color:#fff!important}
+.cta.secondary{color:var(--plum)!important;border-color:var(--plum)}
+.cta.secondary:hover{background:var(--mint);color:var(--plum)!important}
+.eyebrow{color:var(--terracotta)}
+.service-card{border-top:3px solid var(--honey)}
+.service-card:hover{box-shadow:0 9px 28px #5134481A}
+.notice{border-left-color:var(--terracotta)}
+::selection{background:#E9BE6880;color:var(--plum)}
+:focus-visible{outline:3px solid var(--honey);outline-offset:3px}
+
+
+/* Revisione 3 — Albicocca e miele, tipografia e layout, ottobre 2026 */
+:root {
+  --ink: #784B3B;
+  --forest: #C46F4E;
+  --mint: #F7DED3;
+  --paper: #FFF9F3;
+  --warm: #E9B85C;
+  --plum: #784B3B;
+  --terracotta: #C46F4E;
+  --honey: #E9B85C;
+  --border: #EEDDD1;
+}
+body { color: var(--ink); background: var(--paper); }
+h1,h2,h3,.navbar-brand { color: var(--ink); }
+h1 { font-size: clamp(2.1rem, 3.7vw, 3.65rem); line-height: 1.16; overflow-wrap: break-word; }
+h2 { font-size: clamp(1.55rem, 2.5vw, 2.35rem); line-height: 1.25; }
+h3 { font-size: clamp(1.2rem, 1.8vw, 1.55rem); }
+.navbar { background: #FFFCF8 !important; }
+.navbar-brand,.navbar-brand:hover { color: var(--ink) !important; }
+.navbar .nav-link { color: var(--ink) !important; }
+.navbar .nav-link:hover,.navbar .nav-link.active { color: var(--terracotta) !important; }
+.navbar .dropdown-menu { background: #FFFCF8; border-color: var(--border); }
+.navbar .dropdown-item:hover { background: var(--mint); color: var(--ink); }
+a { color: #A95638; }
+a:hover { color: #784B3B; }
+.cta { background: #B86446; }
+.cta:hover { background: #9D4E35; color: white !important; }
+.cta.secondary { color: #A95638 !important; border-color: #B86446; }
+.cta.secondary:hover { background: #F7DED3; color: #784B3B !important; }
+.eyebrow { color: #B86446; }
+.service-card { border-top: 3px solid var(--honey); box-shadow: 0 5px 20px #784B3B10; }
+.service-card:hover { box-shadow: 0 9px 28px #784B3B18; }
+.notice { border-left-color: var(--terracotta); }
+::selection { background: #E9B85C88; color: var(--ink); }
+:focus-visible { outline: 3px solid var(--honey); outline-offset: 3px; }
+/* Wider reading area, without oversized text */
+#quarto-content main { min-width: 0; width: 100%; padding-top: 1.2rem; }
+#quarto-content main p { max-width: 88ch; }
+.page-header { padding: 1.3rem 0 1rem; }
+.page-header h1 { font-size: clamp(2.05rem,3.5vw,3.35rem); }
+.lead { max-width: 900px; }
+/* Balanced hero columns: never overlap, preserve the full portrait */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr);
+  align-items: center;
+  gap: clamp(2rem, 4vw, 4rem);
+  padding: 2.3rem 0 3.2rem;
+}
+.hero > div { min-width: 0; }
+.hero h1 { font-size: clamp(2.4rem, 4.1vw, 4.05rem); line-height: 1.15; margin: .7rem 0 1.2rem; overflow-wrap: break-word; }
+.hero p { font-size: 1.08rem; line-height: 1.7; }
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 540px;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 16px;
+}
+.service-grid { gap: 1.25rem; }
+.service-card { padding: 1.45rem; }
+.service-card h3 { font-size: 1.35rem; }
+.feature { gap: 2.3rem; }
+@media (max-width: 1000px) {
+  .hero { grid-template-columns: minmax(0,1fr) minmax(0,.8fr); gap: 1.5rem; }
+  .hero h1 { font-size: clamp(2.1rem, 4.5vw, 3.1rem); }
+}
+@media (max-width: 760px) {
+  .hero,.feature,.feature.reverse { grid-template-columns: 1fr; }
+  .hero img { width: min(100%, 390px); max-height: none; }
+  .service-grid,.book-grid { grid-template-columns: 1fr; }
+  .hero h1 { font-size: clamp(2.15rem, 8vw, 3rem); }
+}
+
+
+/* Palette definitiva — Bianco, Malva e Glicine */
+:root {
+  --ink: #343640;
+  --forest: #A887A5;
+  --mint: #F6F2F8;
+  --paper: #FFFEFC;
+  --warm: #D8C9E3;
+  --plum: #343640;
+  --terracotta: #A887A5;
+  --honey: #D8C9E3;
+  --border: #EAE3ED;
+}
+body { background: var(--paper); color: var(--ink); }
+h1,h2,h3 { color: var(--ink); }
+.navbar { background: #FFFEFC !important; border-bottom: 1px solid var(--border); }
+.navbar-brand,.navbar-brand:hover { color: var(--ink) !important; }
+.navbar .nav-link { color: var(--ink) !important; }
+.navbar .nav-link:hover,.navbar .nav-link.active { color: #87698C !important; }
+.navbar .dropdown-menu { background: #FFFFFF; border-color: var(--border); }
+.navbar .dropdown-item:hover { background: var(--mint); color: var(--ink); }
+a { color: #87698C; }
+a:hover { color: #60465F; }
+.cta { background: #927091; color: #FFFFFF !important; }
+.cta:hover { background: #725775; color: #FFFFFF !important; }
+.cta.secondary { background: transparent; color: #725775 !important; border: 1px solid #A887A5; }
+.cta.secondary:hover { background: var(--mint); color: #60465F !important; }
+.eyebrow { color: #87698C; }
+.service-card,.book { background: #FFFFFF; border-color: var(--border); }
+.service-card { border-top: 3px solid var(--warm); box-shadow: 0 5px 20px #3436400A; }
+.service-card:hover { box-shadow: 0 9px 28px #34364014; }
+.notice { background: var(--mint); border-left-color: #A887A5; }
+::selection { background: #D8C9E388; color: var(--ink); }
+:focus-visible { outline: 3px solid #A887A5; outline-offset: 3px; }
+.smallprint { color: #696672; }
+
+
+/* Fotografia della sezione scientifica */
+.science-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+
+/* Fotografia ReadFree nella pagina Consulenza */
+
+.feature img.readfree-photo {
+  object-fit: cover;
+  object-position: center 15%;
+}
+
+
+
+/* ========================================
+   PROGETTI DI RICERCA
+   ======================================== */
+
+.research-projects {
+  margin: 5rem auto;
+  max-width: 1200px;
+}
+
+.research-heading {
+  margin-bottom: 3.5rem;
+  max-width: 850px;
+}
+
+.research-heading h2 {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  margin-top: 0.7rem;
+}
+
+.research-project {
+  display: grid;
+  grid-template-columns: 42% 1fr;
+  align-items: center;
+  gap: 3.5rem;
+  margin: 0 0 4rem;
+}
+
+.research-project.reverse {
+  grid-template-columns: 1fr 42%;
+}
+
+.research-project.reverse .research-visual {
+  order: 2;
+}
+
+.research-visual {
+  min-height: 280px;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    #f6f1f8,
+    #e8dced
+  );
+  color: #95749c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, serif;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.research-description h3 {
+  font-size: clamp(1.6rem, 2.5vw, 2.3rem);
+  margin: 0.6rem 0 1rem;
+}
+
+.research-description p {
+  line-height: 1.8;
+}
+
+.research-methods {
+  color: #94759a;
+  font-size: 0.9rem;
+  margin-top: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .research-project,
+  .research-project.reverse {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .research-project.reverse .research-visual {
+    order: 0;
+  }
+
+  .research-visual {
+    min-height: 210px;
+  }
+}
+
+/* Sezione bioenergetica nella pagina Psicologia */
+.bioenergetica-section {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(28px, 4vw, 64px);
+  align-items: center;
+  margin: 64px 0 56px;
+}
+.bioenergetica-art {
+  min-height: 400px;
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 20px;
+  background: linear-gradient(150deg, #e9e0ec, #c9b8ce 55%, #a38ba8);
+  color: #403649;
+}
+.bioenergetica-art-label, .bioenergetica-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  font-size: .75rem;
+  font-weight: 700;
+  color: #8d6b92;
+}
+.bioenergetica-art-label { color: #59465e; }
+.bioenergetica-art-title {
+  font-family: Georgia, serif;
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  line-height: 1.15;
+  margin: 12px 0;
+}
+.bioenergetica-art-note { font-size: .88rem; line-height: 1.55; }
+.bioenergetica-copy h2 { margin: 12px 0 22px; }
+.bioenergetica-copy p { line-height: 1.8; }
+@media (max-width: 760px) {
+  .bioenergetica-section { grid-template-columns: 1fr; margin: 44px 0; }
+  .bioenergetica-art { min-height: 280px; }
+}
+
+/* Sezione bioenergetica: immagine e testo affiancati */
+
+.bioenergetica-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 42px;
+  align-items: center;
+  margin: 44px 0;
+}
+
+.bioenergetica-art-image {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.bioenergetica-art-image p {
+  margin: 0;
+}
+
+.bioenergetica-art-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.bioenergetica-copy {
+  min-width: 0;
+}
+
+/* Su smartphone: una colonna */
+
+@media (max-width: 768px) {
+  .bioenergetica-section {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+/* Immagini dei progetti di ricerca */
+
+.research-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.research-image {
+  display: block;
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* NEUROPSICOLOGIA - testo a sinistra, immagine a destra */
+
+.neuro-content {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 54px;
+  align-items: center;
+  width: 100%;
+}
+
+.neuro-text {
+  min-width: 0;
+}
+
+.neuro-image {
+  min-width: 0;
+}
+
+.neuro-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+/* Versione mobile */
+
+@media (max-width: 768px) {
+  .neuro-content {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
+/* IL MONDO DELLA DOTTORESSA DESI */
+
+.desi-services {
+  margin: 75px 0;
+}
+
+.desi-services h2 {
+  text-align: center;
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 40px;
+  color: #936F96;
+}
+
+.desi-card {
+  position: relative;
+  padding: 42px 30px;
+  border: 2px solid rgba(75, 58, 82, 0.18);
+  border-radius: 28px 18px 35px 22px;
+  box-shadow: 6px 8px 0 rgba(75, 58, 82, 0.12);
+  transition: transform 0.25s ease;
+}
+
+.desi-card:nth-child(1) {
+  transform: rotate(-2deg);
+}
+
+.desi-card:nth-child(2) {
+  transform: rotate(1.5deg);
+}
+
+.desi-card:nth-child(3) {
+  transform: rotate(-1deg);
+}
+
+.desi-card:hover {
+  transform: rotate(0deg) translateY(-8px);
+}
+
+.desi-doodle {
+  font-size: 3.5rem;
+  margin-bottom: 22px;
+}

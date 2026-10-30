@@ -1,0 +1,65 @@
+---
+title: "La Dottoressa Desi"
+lang: it
+css:
+  - styles.css
+  - desi.css
+---
+
+<p class="smallprint">
+
+<a href="en/dr-desi.html">🇬🇧 Read in English</a>
+
+</p>
+
+::::: hero
+<div>
+
+::: eyebrow
+Un angolo per i più piccoli
+:::
+
+<h1>Ciao, sono la Dottoressa [Desi!]{.desi-rainbow}</h1>
+
+<p>Mi piace scoprire come funzionano il cervello, le parole e le cose che impariamo ogni giorno. Nella ricerca incontro tanti bambini curiosi, pieni di domande e di idee.</p>
+
+<p>Qui voglio raccontare il mio lavoro con un linguaggio semplice, anche per i più piccoli e per le loro famiglie.</p>
+
+</div>
+
+<img src="images/LaDottDesi.png" alt="La Dottoressa Desi"/>
+:::::
+
+:::::::: desi-services
+## 🌈 Cosa posso fare per te?
+
+:::::: desi-cards
+::: {.desi-card .desi-pink}
+![La Dottoressa Desi ascolta una bambina con le treccine](images/desi-ascolto.png){.desi-card-art}
+
+### Ascoltarti e conoscerti
+
+Possiamo parlare, giocare e scoprire insieme quello che senti, quello che ti piace e ciò che ti rende speciale.
+:::
+
+::: {.desi-card .desi-blue}
+![Un bambino gioca e impara](images/desi-giochi.png){.desi-card-art}
+
+### Giocare e imparare
+
+Possiamo fare giochi e piccole prove per capire se qualcosa a scuola ti sembra difficile e trovare insieme come aiutarti.
+:::
+
+::: {.desi-card .desi-yellow}
+![Una bambina e un bambino con la loro famiglia](images/desi-famiglia.png){.desi-card-art}
+
+### Parlare con la tua famiglia
+
+Posso ascoltare anche i tuoi genitori, per capire tutti insieme di cosa hai bisogno e come aiutarti a stare bene.
+:::
+::::::
+
+::: desi-contact-cta
+[Scrivimi insieme a un adulto](contacts.qmd){.cta}
+:::
+::::::::

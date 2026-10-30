@@ -1,0 +1,107 @@
+---
+title: "Psychology and neuropsychology"
+lang: en
+---
+
+[🇮🇹 Leggi in italiano](../psicologia.html){.smallprint}
+
+:::: page-header
+::: eyebrow
+For individuals and families
+:::
+
+<h1>Psychology and neuropsychology</h1>
+
+<p class="lead">
+
+An approach attentive to each person, their cognitive functioning, emotional life, and embodied experience.
+
+</p>
+::::
+
+:::::: service-grid
+::: service-card
+<h3>Adolescents and adults</h3>
+
+<p>Individual body-oriented psychological support and group-based psychological programmes.</p>
+:::
+
+::: service-card
+<h3>Adults and older adults</h3>
+
+<p>Neuropsychological assessment of cognitive functions and cognitive training tailored to individual needs.</p>
+:::
+
+::: service-card
+<h3>Children, learning and families</h3>
+
+<p>Support for neurodevelopmental and learning disorders, cognitive training, therapy, and parental guidance.</p>
+:::
+::::::
+
+<section class="bioenergetica-section">
+
+::: {.bioenergetica-art .bioenergetica-art-image}
+```{=html}
+<img
+  src="../images/Figura Metafisica tra Radici e Archi.png"
+  alt="Seated androgynous figure in a metaphysical landscape with golden roots"
+  loading="lazy"
+/>
+```
+:::
+
+::: bioenergetica-copy
+<p class="bioenergetica-eyebrow">
+
+<p class="eyebrow">
+
+THE BODY AND EMOTIONS
+
+</p>
+
+</p>
+
+<h2>A body-oriented therapeutic approach</h2>
+
+<p>Bioenergetic psychotherapy builds on the work of Alexander Lowen and the idea that body and mind are deeply interconnected aspects of our experience. Emotions are expressed not only through thoughts and words, but also through the way we breathe, move, hold ourselves, and sense our bodies.</p>
+
+<p>The bioenergetic approach combines therapeutic dialogue with attention to bodily sensations, breathing, movement, and muscular tension to foster greater self-awareness and insight into ways of relating to others. <strong>The body thus becomes a pathway to understanding emotional experience</strong>, in a process that respects each person's pace, needs, and personal history.</p>
+:::
+
+</section>
+
+<section class="neuro-section">
+
+::::: neuro-content
+::: neuro-text
+<p class="eyebrow">
+
+THE MIND AND ITS PROCESSES
+
+</p>
+
+<h2>Understanding cognitive functioning across the lifespan</h2>
+
+<p>Neuropsychology studies the relationships between brain functioning, cognitive processes, and behaviour. Attention, memory, language, learning, and executive functions shape how each of us understands the world, handles everyday experiences, and relates to others.</p>
+
+<p>Across the lifespan, these abilities develop, change, and interact continuously with emotional, psychological, and environmental factors. Neuropsychological assessment therefore goes beyond measuring individual test scores: it aims to build an overall profile of cognitive functioning, identifying strengths, potential vulnerabilities, and individual characteristics.</p>
+
+<p><strong> Understanding how the mind works means looking beyond symptoms and considering the whole person. </strong> Cognitive assessment can therefore help guide clinical care, clarify difficulties, and identify personalised support strategies.</p>
+:::
+
+::: neuro-image
+```{=html}
+<img src="../images/neuro.png"
+       alt="Illustration of cognitive functioning and the complexity of the mind">
+```
+:::
+:::::
+
+</section>
+
+::: notice
+<strong>Professional qualifications.</strong> I am a registered psychologist with the Liguria Regional Register of Psychologists (Section A, no. 3205) and I am currently undertaking specialist training in bioenergetic psychotherapy. I completed a postgraduate Master’s programme in the diagnosis and treatment of specific learning disorders in 2016 and earned a PhD with a dissertation on developmental dyslexia.
+:::
+
+<p><a class="cta" href="contacts.qmd">Request information</a></p>

@@ -1,0 +1,8 @@
+---
+title: "Curriculum vitae"
+lang: it
+---
+
+<p class="smallprint"><a href="en/cv.html">🇬🇧 Read in English</a></p>
+
+<h1>Curriculum vitae</h1><p>Consulta il mio curriculum aggiornato al 2026.</p><p><a class="cta" href="files/CV_Carioti_2026.pdf">Scarica il CV (PDF)</a></p>

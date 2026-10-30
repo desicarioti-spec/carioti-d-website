@@ -1,0 +1,134 @@
+---
+title: "Psicologia e neuropsicologia"
+lang: it
+---
+
+<p class="smallprint">
+
+<a href="en/psychology.html">🇬🇧 Read in English</a>
+
+</p>
+
+:::: page-header
+::: eyebrow
+Per persone e famiglie
+:::
+
+<h1>Psicologia e neuropsicologia</h1>
+
+<p class="lead">
+
+Un lavoro attento alla persona, al suo funzionamento cognitivo, alla dimensione emotiva e all’esperienza corporea.
+
+</p>
+::::
+
+:::::: service-grid
+::: service-card
+<h3>Adolescenti e adulti</h3>
+
+<p>Sostegno psicologico individuale a orientamento corporeo e percorsi psicologici di gruppo.</p>
+:::
+
+::: service-card
+<h3>Adulti e anziani</h3>
+
+<p>Valutazione neuropsicologica delle funzioni cognitive e training cognitivo, sulla base delle esigenze individuali.</p>
+:::
+
+::: service-card
+<h3>Bimbi, apprendimento e famiglie</h3>
+
+<p>Supporto nei disturbi del neurosviluppo e dell’apprendimento, training cognitivo, terapia e consulenza ai genitori.</p>
+:::
+::::::
+
+<section class="bioenergetica-section">
+
+::: {.bioenergetica-art .bioenergetica-art-image}
+```{=html}
+<img
+  src="images/Figura Metafisica tra Radici e Archi.png"
+  alt="Figura androgina seduta in un paesaggio metafisico, con radici dorate sul terreno"
+  loading="lazy"
+/>
+```
+:::
+
+::: bioenergetica-copy
+<p class="bioenergetica-eyebrow">
+
+<p class="eyebrow">IL CORPO E LE EMOZIONI</p>
+
+</p>
+
+<h2>Un approccio terapeutico basato sul corpo</h2>
+
+<p>La psicoterapia a orientamento bioenergetico nasce dal lavoro di Alexander Lowen e si fonda sull'idea che corpo e mente siano dimensioni profondamente interconnesse della nostra esperienza. Le emozioni non si esprimono soltanto attraverso i pensieri e le parole, ma anche nel modo in cui respiriamo, ci muoviamo, assumiamo una postura e percepiamo il nostro corpo.</p>
+
+<p>L'approccio bioenergetico integra il dialogo terapeutico con l'attenzione alle sensazioni corporee, alla respirazione, al movimento e alle tensioni muscolari, per favorire una maggiore consapevolezza di sé e delle proprie modalità di relazione. <strong>Il corpo diventa così una via di accesso alla comprensione della propria esperienza emotiva</strong>, in un percorso che rispetta i tempi, le esigenze e la storia di ogni persona.</p>
+:::
+
+</section>
+
+<section class="neuro-section">
+
+::: neuro-content
+     
+<div class="neuro-text">
+
+  <p class="eyebrow">LA MENTE E I SUOI PROCESSI</p>
+
+  <h2>Comprendere il funzionamento cognitivo
+  lungo tutto l'arco della vita</h2>
+
+  <p>
+    La neuropsicologia studia le relazioni tra il
+    funzionamento cerebrale, i processi cognitivi e
+    il comportamento. Attenzione, memoria, linguaggio,
+    apprendimento e funzioni esecutive contribuiscono
+    al modo in cui ciascuno di noi comprende il mondo,
+    affronta le esperienze quotidiane e si relaziona
+    con gli altri.
+  </p>
+
+  <p>
+    Nel corso della vita, queste abilità si sviluppano,
+    si trasformano e interagiscono continuamente con
+    le dimensioni emotive, psicologiche e ambientali.
+    Per questo, una valutazione neuropsicologica non
+    si limita a misurare singole prestazioni, ma mira
+    a ricostruire un profilo complessivo del
+    funzionamento cognitivo, individuando punti di
+    forza, eventuali fragilità e caratteristiche
+    individuali.
+  </p>
+
+  <p>
+    <strong>
+      Comprendere come funziona la mente significa
+      andare oltre il sintomo e considerare la persona
+      nella sua complessità.
+    </strong>
+    La valutazione cognitiva può così diventare uno
+    strumento prezioso per orientare il percorso clinico,
+    comprendere meglio le difficoltà e individuare
+    strategie di supporto personalizzate.
+  </p>
+
+</div>
+
+<div class="neuro-image">
+  <img src="images/neuro.png"
+       alt="Illustrazione del funzionamento cognitivo e della complessità della mente">
+</div>
+
+:::
+
+</section>
+
+::: notice
+<strong>Formazione professionale.</strong> Sono psicologa iscritta all’Albo degli Psicologi della Liguria (sez. A, n. 3205) e sono attualmente in fase di specializzazione in psicoterapia a orientamento bioenergetico. Ho conseguito un Master su diagnosi e trattamento dei disturbi specifici dell'apprendimento nel 2016 e ho conseguito il dottorato di ricerca con una tesi sulla dislessia evolutiva.
+:::
+
+<p><a class="cta" href="contacts.qmd">Richiedi informazioni</a></p>

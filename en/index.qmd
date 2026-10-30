@@ -1,0 +1,120 @@
+---
+title: "Home"
+lang: en
+---
+
+[🇮🇹 Leggi in italiano](../index.html){.smallprint}
+
+
+
+:::::: hero
+<div>
+
+::: eyebrow
+Psychology · Neuroscience · Research
+:::
+
+<h1>Explore, understand, support.</h1>
+
+<p>
+
+I am Desiré Carioti, a psychologist, trainee psychotherapist and PhD in psychology and cognitive neuroscience.
+
+I work with individuals and families, collaborate on scientific projects, and share knowledge through teaching and training.
+
+</p>
+
+::: hero
+<a class="cta" href="#servizi">Explore my services</a> <a class="cta secondary" href="contacts.qmd">Get in touch</a>
+:::
+
+</div>
+
+<img src="../images/desire-carioti.jpg" alt="Professional portrait of Desiré Carioti"/>
+::::::
+
+::: eyebrow
+Areas of practice
+:::
+
+<h2 id="servizi">Three areas of work, one evidence-informed approach</h2>
+
+:::::: service-grid
+::: service-card
+<h3>Psychology and neuropsychology</h3>
+
+<p>Individual and group body-oriented psychotherapy, neuropsychological assessment, cognitive training, and consultations on learning and neurodevelopment.</p>
+
+<a href="psychology.qmd">Explore psychological services →</a>
+:::
+
+::: service-card
+<h3>Research consulting and data analysis</h3>
+
+<p>Study design, data analysis, meta-analysis, and validation of psychological and clinical assessment tools.</p>
+
+<a href="consulting.qmd">Explore consulting services →</a>
+:::
+
+::: service-card
+<h3>Training and science communication</h3>
+
+<p>Seminars, courses, and workshops for practitioners, researchers, teachers, schools, and organisations.</p>
+
+<a href="training.qmd">Explore training opportunities →</a>
+:::
+::::::
+
+::::: feature
+<img src="../images/FESN_presentazione.jpeg" alt="Scientific presentation at a neuropsychology conference"/>
+
+<div>
+
+::: eyebrow
+My background
+:::
+
+<h2>Bridging clinical practice and research</h2>
+
+<p>I earned my PhD in Human Studies (Psychology track) at the University of Urbino Carlo Bo and worked at the University of Milano-Bicocca on national and international projects investigating language, reading, learning, and cognitive neuroscience. I collaborate with the Carlo Besta Neurological Research Institute in Milan and the OltreLaMusica association in Senigallia.</p>
+
+<a href="research.qmd">Explore research projects →</a>
+
+</div>
+:::::
+
+::::: {.feature .reverse}
+<div>
+
+::: eyebrow
+A world to discover
+:::
+
+<h2>Dr Desi</h2>
+
+<p>A playful space for children and families, sharing the curiosity, play, and discoveries that are part of my work. What does it mean to do scientific research? How does our brain work? How can I help you? Let’s explore the world of the mind together!</p>
+
+<a href="dr-desi.qmd">Visit the page →</a>
+
+</div>
+
+<img src="../images/LaDottDesi.png" alt="Dr Desi giving a scientific presentation"/>
+:::::
+
+::::: feature
+<img src="../images/Aldo_fasolo.jpg" alt="Aldo Fasolo award ceremony"/>
+
+<div>
+
+::: eyebrow
+Professional milestones
+:::
+
+<h2>Awards, books and publications</h2>
+
+<p>Scientific papers, book chapters, and awards highlight some of the milestones in my career.</p>
+
+<a href="publications.qmd">Publications →</a> · <a href="awards.qmd">Awards →</a>
+
+</div>
+:::::

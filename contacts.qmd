@@ -1,0 +1,140 @@
+---
+title: "Contatti"
+lang: it
+---
+
+[🇬🇧 Read in English](en/contacts.html){.smallprint}
+
+::::: page-header
+::: eyebrow
+Entriamo in contatto
+:::
+
+# Parliamone!
+
+::: lead
+Per informazioni sui percorsi psicologici, una collaborazione di ricerca, una consulenza o un’attività formativa, raccontami brevemente il motivo del tuo contatto.
+:::
+:::::
+
+:::::: contact-layout
+::: contact-panel
+## Scrivimi un messaggio
+
+Compila i campi e scegli se aprire il messaggio nella tua email o su WhatsApp.
+
+```{=html}
+<form id="contact-compose-form">
+  <label for="contact-name">Il tuo nome</label>
+  <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="120" required placeholder="Nome e cognome">
+
+  <label for="contact-topic">Per cosa mi contatti?</label>
+  <select id="contact-topic" name="topic" required>
+    <option value="Psicologia e neuropsicologia">Psicologia e neuropsicologia</option>
+    <option value="Ricerca e collaborazioni">Ricerca e collaborazioni</option>
+    <option value="Formazione e divulgazione">Formazione e divulgazione</option>
+    <option value="Altro">Altro</option>
+  </select>
+
+  <label for="contact-message">Il tuo messaggio</label>
+  <textarea id="contact-message" name="message" rows="6" maxlength="3000" required placeholder="Scrivimi qui..."></textarea>
+
+  <p class="contact-privacy">Per tutelare la riservatezza, evita di inserire informazioni sanitarie o altri dati sensibili in questo primo messaggio.</p>
+
+  <div class="contact-actions">
+    <button type="button" class="contact-action contact-email" id="compose-email">✉️ Scrivimi via email</button>
+    <button type="button" class="contact-action contact-whatsapp" id="compose-whatsapp">◉ Scrivimi su WhatsApp</button>
+  </div>
+
+  <p class="contact-note">Si aprirà la tua app di posta o WhatsApp con il testo già compilato. Potrai rileggerlo e confermare personalmente l’invio.</p>
+</form>
+```
+:::
+
+:::: contact-side
+## Restiamo in contatto
+
+Puoi anche seguire i miei aggiornamenti e le mie attività professionali.
+
+[Instagram · \@ladott.desi](https://www.instagram.com/ladott.desi/){.contact-social target="_blank" rel="noopener noreferrer"}
+
+[LinkedIn · Desiré Carioti](https://www.linkedin.com/in/desir%C3%A9-carioti/){.contact-social target="_blank" rel="noopener noreferrer"}
+
+### Preferisci scrivere direttamente?
+
+[desi.carioti\@gmail.com](mailto:desi.carioti@gmail.com)
+
+::: smallprint
+Modalità e disponibilità delle prestazioni vengono concordate individualmente.
+:::
+::::
+::::::
+
+```{=html}
+<style>
+.contact-layout {display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,1fr);gap:1.5rem;align-items:start;margin:1.5rem 0 3rem}
+.contact-panel,.contact-side {min-width:0;background:rgba(255,255,255,.94);border:1px solid #e8dfea;border-radius:22px;padding:clamp(1.2rem,3vw,2rem);box-shadow:0 8px 28px rgba(62,40,72,.055)}
+.contact-panel h2,.contact-side h2 {margin-top:0;font-size:1.4rem;border-bottom:0;padding-bottom:0}
+.contact-side h3 {font-size:1.05rem;margin-top:1.6rem}
+#contact-compose-form {display:flex;flex-direction:column;gap:.55rem;margin-top:1.2rem}
+#contact-compose-form label {display:block;font-weight:650;margin-top:.55rem}
+#contact-compose-form input,#contact-compose-form select,#contact-compose-form textarea {box-sizing:border-box;display:block;width:100%;min-width:0;border:1px solid #d9cbdc;border-radius:11px;padding:.78rem .9rem;background:#fff;color:#29232d;font:inherit}
+#contact-compose-form textarea {resize:vertical}
+#contact-compose-form input:focus,#contact-compose-form select:focus,#contact-compose-form textarea:focus {outline:2px solid #a98cba;outline-offset:1px}
+.contact-privacy,.contact-note {font-size:.86rem;color:#665b68;line-height:1.55;margin:.8rem 0 .25rem}
+.contact-actions {display:flex;flex-wrap:wrap;gap:.7rem;margin-top:.45rem}
+.contact-action {cursor:pointer;border:0;border-radius:999px;padding:.85rem 1.15rem;font:inherit;font-weight:650;flex:1 1 185px;transition:filter .2s}
+.contact-email {background:#73518b;color:#fff}
+.contact-whatsapp {background:#e6f3e9;color:#23543a;border:1px solid #b6d7c0}
+.contact-action:hover {filter:brightness(.96)}
+.contact-social {display:block;padding:.95rem 0;border-bottom:1px solid #ece3ed;text-decoration:none;font-weight:650;overflow-wrap:anywhere}
+.contact-social:hover {text-decoration:underline}
+.contact-side a[href^="mailto:"] {overflow-wrap:anywhere}
+@media(max-width:760px){.contact-layout{grid-template-columns:1fr}}
+</style>
+```
+
+```{=html}
+<script>
+(function () {
+  function initializeContactForm() {
+    const form = document.getElementById('contact-compose-form');
+    const emailButton = document.getElementById('compose-email');
+    const whatsappButton = document.getElementById('compose-whatsapp');
+    if (!form || !emailButton || !whatsappButton) return;
+
+    function compose() {
+      if (!form.reportValidity()) return null;
+      const name = document.getElementById('contact-name').value.trim();
+      const topic = document.getElementById('contact-topic').value;
+      const message = document.getElementById('contact-message').value.trim();
+      if (!name || !message) {
+        alert('Inserisci il tuo nome e un messaggio.');
+        return null;
+      }
+      return { topic, body: `Ciao, sono ${name}.\n\nTi contatto per: ${topic}.\n\n${message}` };
+    }
+
+    emailButton.addEventListener('click', function () {
+      const data = compose();
+      if (!data) return;
+      const subject = encodeURIComponent('Contatto dal sito – ' + data.topic);
+      const body = encodeURIComponent(data.body);
+      window.location.href = `mailto:desi.carioti@gmail.com?subject=${subject}&body=${body}`;
+    });
+
+    whatsappButton.addEventListener('click', function () {
+      const data = compose();
+      if (!data) return;
+      const url = `https://wa.me/393406969587?text=${encodeURIComponent(data.body)}`;
+      window.open(url, '_blank', 'noopener,noreferrer');
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeContactForm);
+  } else {
+    initializeContactForm();
+  }
+})();
+</script>
+```

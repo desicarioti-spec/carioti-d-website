@@ -1,0 +1,58 @@
+---
+title: "Research consulting and data analysis"
+lang: en
+---
+
+[🇮🇹 Leggi in italiano](../consulenza.html){.smallprint}
+
+
+
+:::: page-header
+::: eyebrow
+For researchers, teams and organisations
+:::
+
+<h1>Research consulting and data analysis</h1>
+
+<p class="lead">
+
+From experimental ideas to interpreting results: methodological support for robust, reproducible research projects.
+
+</p>
+::::
+
+:::::: service-grid
+::: service-card
+<h3>Research design and methodology</h3>
+
+<p>Experimental design, operationalising research questions, defining measures, sampling, analysis plans, and research support.</p>
+:::
+
+::: service-card
+<h3>Statistics and modelling</h3>
+
+<p>R-based analyses, mixed-effects models, multivariate methods, meta-analysis, and machine learning.</p>
+:::
+
+::: service-card
+<h3>Psychometrics and neuroimaging</h3>
+
+<p>Instrument validation, behavioural and neuroimaging data analysis, and support with interpretation.</p>
+:::
+::::::
+
+:::: feature
+<img src="../images/READFREE.jpeg" alt="Presentation of the ReadFree project" class="readfree-photo"/>
+
+<div>
+
+<h2>Applied research expertise</h2>
+
+<p>During my doctoral training I specialised in psychometrics and data analysis, and pursued additional training in machine learning, mediation and moderation models, structural equation modelling, behavioural meta-analysis, and Bayesian statistics. I have contributed to designing and validating tests for language assessment, screening, and the treatment of clinical neuropsychological conditions.</p>
+
+<a href="research.qmd">Research projects →</a>
+
+</div>
+::::
+
+<a class="cta" href="contacts.qmd">Discuss a project</a>

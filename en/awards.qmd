@@ -1,0 +1,81 @@
+---
+title: "Awards and recognition"
+lang: en
+---
+
+[🇮🇹 Leggi in italiano](../premi.html){.smallprint}
+
+
+
+:::: page-header
+::: eyebrow
+Achievements and recognition
+:::
+
+<h1>Awards and recognition</h1>
+::::
+
+:::: feature
+<img src="../images/Aldo_fasolo.jpg" alt="Presentation of the Aldo Fasolo Award in 2024"/>
+
+<div>
+
+<h2>Aldo Fasolo Award 2023</h2>
+
+<p><strong>“Aldo Fasolo 2023” Award</strong> from the InTo Brain Association, University of Turin, for originality and effectiveness in science communication. The award was presented in 2024.</p>
+
+<p class="smallprint">
+
+<a href="https://www.intobrain.it/it/azione-3-premio-aldo-fasolo-2023-per-la-comunicazione-in-neuroscienze/bando-2023/i-vincitori-2023-2/" target="_blank" rel="noopener noreferrer">Associazione InTo Brain</a> ·
+<a href="https://www.youtube.com/watch?v=xgYw3yoha_o" target="_blank" rel="noopener noreferrer">Project video</a> ·
+<a href="https://bnews.unimib.it/blog/il-gioco-senza-parole-che-riconosce-i-dsa/" target="_blank" rel="noopener noreferrer">Interview on Bnews</a>
+
+</p>
+
+</div>
+::::
+
+::::: {.feature .lang-layout}
+::: lang-text
+        
+<h2>Music That Benefits Children — 2026</h2>
+
+<p>
+  <strong>LANG Italia Foundation — Care Programme.</strong>
+  Third place for the I.G.R.O.O.V.E. project at the
+  IRCCS Mondino National Neurological Institute Foundation
+  in Pavia, with a special mention for innovation.
+</p>
+
+:::
+
+::: lang-photo
+        
+<img
+  src="../images/IGROOVE_premio.jpg"
+  alt="I.G.R.O.O.V.E. project award ceremony in 2026"
+  loading="lazy"
+>
+
+:::
+:::::
+
+:::::: service-grid
+::: service-card
+<h3>2024</h3>
+
+<p><strong>Best Poster Award</strong><br>Research Day, Department of Psychology, University of Milano-Bicocca.</p>
+:::
+
+::: service-card
+<h3>2023</h3>
+
+<p><strong>Honourable Mention for Best Poster</strong><br>CLASTA Conference, Pescara.</p>
+:::
+
+::: service-card
+<h3>2022</h3>
+
+<p><strong>Best Poster Award</strong><br>Developmental Neuropsychology Conference, Bressanone.</p>
+:::
+::::::
