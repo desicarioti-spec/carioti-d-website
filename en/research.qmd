@@ -5,8 +5,6 @@ lang: en
 
 [🇮🇹 Leggi in italiano](../research.html){.smallprint}
 
-
-
 :::: page-header
 ::: eyebrow
 Research portfolio
@@ -40,8 +38,6 @@ Collaborations with the University of Urbino Carlo Bo, University of Milano-Bico
 
 </div>
 ::::
-
-
 
 <a class="cta" href="publications.qmd">View publications</a>
 
@@ -233,46 +229,6 @@ Psychometrics · Cognitive assessment
 
 </section>
 :::
-
-:::::
-
-:::::::
-
-:::::::::
-
-:::::::::::
-
-:::::::::::::
-
-:::::
-
-:::::::
-
-:::::::::
-
-:::::::::::
-
-:::::::::::::
-
-:::::
-
-:::::::
-
-:::::::::
-
-:::::::::::
-
-:::::::::::::
-
-:::::
-
-:::::::
-
-:::::::::
-
-:::::::::::
-
-:::::::::::::
 ::::::
 :::::::::
 ::::::::::::

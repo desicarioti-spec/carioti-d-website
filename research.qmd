@@ -43,8 +43,6 @@ Attività in collaborazione con Università degli Studi di Urbino Carlo Bo, Univ
 </div>
 ::::
 
-
-
 <a class="cta" href="publications.qmd">Leggi le pubblicazioni</a>
 
 <!-- PROGETTI E COLLABORAZIONI -->
@@ -235,46 +233,6 @@ Psicometria · Valutazione cognitiva
 
 </section>
 :::
-
-:::::
-
-:::::::
-
-:::::::::
-
-:::::::::::
-
-:::::::::::::
-
-:::::
-
-:::::::
-
-:::::::::
-
-:::::::::::
-
-:::::::::::::
-
-:::::
-
-:::::::
-
-:::::::::
-
-:::::::::::
-
-:::::::::::::
-
-:::::
-
-:::::::
-
-:::::::::
-
-:::::::::::
-
-:::::::::::::
 ::::::
 :::::::::
 ::::::::::::
